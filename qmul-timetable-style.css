@@ -1,0 +1,58 @@
+@-moz-document domain("timetables.qmul.ac.uk") {
+body {
+    color: rgb(255, 255, 255);
+    background-color: #202122;
+    font: 9pt "Verdana",sans-serif;
+}
+table.grid-border-args {
+    width: 100%;
+    border-right: 1pt solid rgb(0, 0, 0);
+    border-bottom: 1pt solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+#alternateday {
+    background-color: #fff !important;
+}
+td.row-label-one {
+    border-left: 1pt solid rgb(0, 0, 0);
+    border-top: 1pt solid rgb(0, 0, 0);
+    width: 5%;
+    white-space: pre;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font: bold 8pt "Verdana",sans-serif;
+    height: 60px;
+}
+td.col-label-one {
+    border-left: 1pt solid rgb(0,0,0);
+    border-top: 1pt solid rgb(0,0,0);
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font: bold 8pt "Verdana",sans-serif;
+}
+a:-webkit-any-link {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.Lecture {
+    background-color: #000007 !important;
+    color: White !important;
+    border: 1px solid black;
+}
+.Tutorial {
+    background-color: #373738 !important;
+    border: 1px solid black;
+}
+td.object-cell-border {
+    border: 1pt solid rgb(0,0,0);
+    background-color: #8e8e8e;
+}
+}
