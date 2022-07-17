@@ -1,0 +1,68 @@
+.page-center {
+  display: block;
+  margin: 0 0 0 240px;
+  background-color: #444444;;
+}
+
+.page-left>.scrollable {
+  overflow-y: hidden;
+}
+
+.posters-list>li .poster-details .secondary-link {
+  color: #fff;
+}
+
+.posters-list>li .poster-details h2 a {
+  color: #fff;
+}
+
+.page-column section h1 {
+color: #fff   
+}
+
+body.white {
+  background: #444444;
+}
+
+.universal-app-cta__link {
+  width: 20px;
+  height: 30px;
+  border-color: #272727;
+}
+
+.page-left section {
+  padding: 0 10px;
+  margin: 0 20px;
+}
+
+.universal-app-cta__link, section.universal-app-cta__link {
+  font-size: 6px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.universal-app-cta__app-store-links {
+  color: #272727;
+}
+
+.footer .social h1 {
+  color: #272727
+}
+
+#profile .profile-nav {
+  background-color: #272727;
+  border-bottom: 1px solid #272727;
+  color: #fff
+}
+
+#profile {
+  background-color: #272727;
+  color: #fff;
+}
+
+#content .content-container .right {
+  width: 350px;
+  background-color: #efefef;
+  border-left: 1px solid #ccc;
+  padding: 0;
+}
