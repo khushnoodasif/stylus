@@ -66,3 +66,7 @@ body.white {
   border-left: 1px solid #ccc;
   padding: 0;
 }
+
+body.reduced-left:not(.not-connected) .page-left .menu {
+  margin: 0 10px 10px;
+}
